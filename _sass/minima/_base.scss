@@ -15,8 +15,10 @@ dl, dd, ol, ul, figure {
  */
 body {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
-  width: 100%;
+  width: 100%;  
 
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $text-color;

@@ -107,7 +107,7 @@
  * Site footer
  */
 .site-footer {
-  position: absolute;
+  flex: 0 0 auto;
   bottom: 0;
   width: 100%;
 
@@ -165,6 +165,7 @@
  * Page content
  */
 .page-content {
+  flex: 1 0 auto;
   padding: $spacing-unit 0;
 }
 
